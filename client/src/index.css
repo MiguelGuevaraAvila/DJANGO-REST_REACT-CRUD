@@ -1,12 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body{
-  background: #b4b4b4;
+  background: #201f1f;
   font-size: 20px;
-  color: #32524c;
+  color: #dadada;
 }
 
+
+/****************************************************************
 .card{
   width: 350px;
-  height: 150px;
+  height: auto;
   padding: 12px;
   margin: 10px;
   border: 1px solid #f6f6f6;
@@ -51,18 +57,22 @@ form input[type="email"]{
 	display:inline-block;
 }
 
-form button{
-	width:40%;
+form button, button{
+	width:90px;
   margin: 0 auto;
 	padding:8px 16px;
 	margin-top:32px;
 	border:1px solid #000;
 	border-radius:5px;
 	display:block;
-	color:#fff;
+	color:#f1e6f8;
+  font-weight: bold;
 	background-color:#000;
 } 
-
+button{
+  float:left;
+  background: rgb(146, 8, 8);
+}
 form button:hover{
 	cursor:pointer;
 }
@@ -73,7 +83,7 @@ textarea{
 	border-radius:3px;
 	background-color:#f6f6f6;			
 	margin:8px 0;
-	/*resize: vertical | horizontal | none | both*/
+	
 	resize:none;
 	display:block;
 }
@@ -83,3 +93,5 @@ textarea{
   color: red;
   padding-left: 0.5rem;
 }
+
+******************************************/
